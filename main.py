@@ -1,4 +1,3 @@
-from compressmodule import compress, decompress
+from gui import start_gui
 
-compress('demo.txt', 'ot.txt')
-decompress('ot.txt', 'dc1.txt')
+start_gui()
